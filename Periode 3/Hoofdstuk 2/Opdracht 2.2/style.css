@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    list-style: none;
+}
+
+ul{
+    height: 50%;
+    margin-left: 12px;
+}
+
+#homebutton
+{
+    height: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 92%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.1s ease;
+    color: #000000;
+}
+
+a:hover
+{
+    color: #7bb2e6;
+}
+
+h3{
+    padding: 10px 0;
+}
+
+#h1
+{
+    font-weight: 600;
+    color: #000000;
+    margin-top: 20%;
+}
+
+.bold{
+    font-weight: 600;
+    color: #000000;
+}
+
+#menu{
+    background-color: #ffffff;
+    float: left;
+    height: 100vh;
+    width: 15%;
+}
+
+#menu h1{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+body{
+    background-image: url("./Images/back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#header{
+    text-align: center;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px 0;
+    z-index: 10;
+    position: fixed;
+    font-weight: 900;
+}
+
+#Taken
+{
+    height: 600px;
+    width: 550px;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 56%;
+    left: 58%;
+}
+
+#Taak2
+{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+#Taak3
+{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+
+#taak2
+{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 350px;
+}
+
+#taak3
+{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 350px;
+}
