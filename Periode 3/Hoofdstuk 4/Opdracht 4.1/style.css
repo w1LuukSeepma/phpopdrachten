@@ -1,0 +1,41 @@
+#footer
+{
+    position: absolute;
+    top: 68%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+#boks
+{
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 500px;
+    background-color: white;
+}
+
+#kop
+{
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-size: 24px;
+}
+
+#homebutton
+{
+    height: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 92%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+}

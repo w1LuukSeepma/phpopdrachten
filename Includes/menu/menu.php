@@ -35,6 +35,19 @@
                     <a href="/../phpopdrachten/Periode%203/Hoofdstuk%203/Opdracht%203.2/index.php">Opdracht 3.2</a>
                 </li>
             </ul>
+            <ul>
+                <li>
+                    <a href="/../phpopdrachten/Periode%203/Hoofdstuk%203/Opdracht%203.3/index.php">Opdracht 3.3</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>Hoofdstuk 4</h3>
+            <ul>
+                <li>
+                    <a href="/../phpopdrachten/Periode%203/Hoofdstuk%204/Opdracht%204.1/index.php">Opdracht 4.1</a>
+                </li>
+            </ul>
         </li>
     </ul>
 </div>

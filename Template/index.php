@@ -7,6 +7,7 @@
  */
 include "../Includes/header/header.php";
 include "../Includes/menu/menu.php";
+include "../Includes/footer/footer.php";
 ?>
 <!doctype html>
 <html lang="en">
