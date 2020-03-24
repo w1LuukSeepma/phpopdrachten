@@ -5,8 +5,6 @@
  * Time: 18:10
  * File: index.php
  */
-include "../Includes/header/header.php";
-include "../Includes/menu/menu.php";
 ?>
 <!doctype html>
 <html lang="en">
@@ -17,8 +15,6 @@ include "../Includes/menu/menu.php";
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 id="titel">Opdracht X.X</h1>
-        <a href=""> <img id="homebutton" src="" alt="Homebutton"></a>
-    </body>
-</html>
-
+        <header>
+            <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
+        </header>

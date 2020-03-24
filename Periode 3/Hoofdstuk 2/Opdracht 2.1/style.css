@@ -4,6 +4,10 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    background-image: url("../Images/back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 li{
     list-style: none;

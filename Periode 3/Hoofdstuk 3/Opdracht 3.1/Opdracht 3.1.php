@@ -33,7 +33,11 @@ echo $verhaal;
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1 id="titel">Opdracht 3.1</h1>
+    <div id="tachtergrond">
 
+    </div>
+    <a href="../../Hoofdstuk%201/Opdracht%201/index.php"> <img id="homebutton" src="../Images/homebutton.png" alt="Homebutton"></a>
 </body>
 </html>
 

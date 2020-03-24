@@ -68,7 +68,12 @@ $text15 = "toch";
                     <h3>Hoofdstuk 3</h3>
                     <ul>
                         <li>
-                            <a href="">Opdracht 2</a>
+                            <a href="../../Hoofdstuk%203/Opdracht%203.1/Opdracht%203.1.php">Opdracht 3.1</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="/../phpopdrachten/Periode%203/Hoofdstuk%203/Opdracht%203.2/index.php">Opdracht 3.2</a>
                         </li>
                     </ul>
                 </li>
