@@ -1,12 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <title>Document</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./menu.css">
-</head>
-<body>
 <div id="menu">
     <h1>Opdrachten:</h1>
     <ul>
@@ -46,6 +37,21 @@
             <ul>
                 <li>
                     <a href="/../phpopdrachten/Periode%203/Hoofdstuk%204/Opdracht%204.1/index.php">Opdracht 4.1</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="/../phpopdrachten/Periode%203/Hoofdstuk%204/Opdracht%204.2/index.php">Opdracht 4.2</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="/../phpopdrachten/Periode%203/Hoofdstuk%204/Opdracht%204.3/index.php">Opdracht 4.3</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="/../phpopdrachten/Periode%203/Hoofdstuk%204/Opdracht%204.4/index.php">Opdracht 4.4</a>
                 </li>
             </ul>
         </li>

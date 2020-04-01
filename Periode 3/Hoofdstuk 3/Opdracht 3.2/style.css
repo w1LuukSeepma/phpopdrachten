@@ -1,61 +1,12 @@
-#box
+#main
 {
-    height: 550px;
-    width: 800px;
+    height: 500px;
+    width: 600px;
     background-color: #ffffff;
     position: absolute;
     top: 55%;
     left: 55%;
     transform: translate(-50%, -50%);
     z-index: -1;
-}
-
-.drink
-{
-    position: absolute;
-    top: 65%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    font-size: 16px;
-}
-
-.age
-{
-    position: absolute;
-    top: 35%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    font-size: 16px;
-}
-
-#homebutton
-{
-    height: 50px;
-    padding: 5px;
-    border-radius: 50%;
-    position: absolute;
-    top: 92%;
-    left: 95%;
-    transform: translate(-50%, -50%);
-    background-color: #ffffff;
-}
-
-#age
-{
-    position: absolute;
-    top: 30%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    font-size: 24px;
-    z-index: 1;
-}
-
-#drank
-{
-    position: absolute;
-    top: 59%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    font-size: 24px;
-    z-index: 1;
+    padding: 200px 100px 120px 120px;
 }

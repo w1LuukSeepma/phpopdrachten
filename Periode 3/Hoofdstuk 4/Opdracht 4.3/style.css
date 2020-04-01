@@ -1,0 +1,15 @@
+#main
+{
+    height: 1800px;
+    width: 550px;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+table
+{
+    margin-left: 190px;
+}

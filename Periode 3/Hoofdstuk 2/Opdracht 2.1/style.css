@@ -1,47 +1,24 @@
-#homebutton
+#main
 {
-    height: 50px;
-    padding: 5px;
-    border-radius: 50%;
-    position: absolute;
-    top: 92%;
-    left: 95%;
-    transform: translate(-50%, -50%);
     background-color: #ffffff;
-}
-
-body{
-    background-image: url("./Images/back.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-#generated{
-    height: 400px;
-    width: 600px;
-    background-color: #ffffff;
-    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 650px;
     position: absolute;
-    top: 55%;
-    left: 58%;
+    top: 20%;
+    left: 35%;
 }
 
-#generated h1
+#main > h1
 {
-    text-align: center;
-    margin-top: 20px;
-}
-
-#generated p{
-    transform: translate(-50%, -50%);
     position: absolute;
-    top: 40%;
-    left: 50%;
-    font-size: 26px;
+    top: 10%;
+    left: 18%;
 }
 
-h3
+#main > p
 {
-    font-weight: 600;
+    position: absolute;
+    top: 30%;
+    left: 40%;
 }
+
