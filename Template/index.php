@@ -7,19 +7,11 @@
  */
 include "../Includes/header/header.php";
 include "../Includes/menu/menu.php";
+?>
+<div id="main">
+
+</div>
+<?php
 include "../Includes/footer/footer.php";
 ?>
-<!doctype html>
-<html lang="en">
-    <head>
-        <title>Document</title>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1 id="titel">Opdracht X.X</h1>
-        <a href=""> <img id="homebutton" src="" alt="Homebutton"></a>
-    </body>
-</html>
 

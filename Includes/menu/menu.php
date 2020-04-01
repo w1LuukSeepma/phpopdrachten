@@ -55,5 +55,28 @@
                 </li>
             </ul>
         </li>
+        <li>
+            <h3>Hoofdstuk 5</h3>
+            <ul>
+                <li>
+                    <a href="/../phpopdrachten/Periode%203/Hoofdstuk%205/Opdracht%205.1/opdracht_5.1.php">Opdracht 5.1</a>
+                </li>
+            </ul>
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <a href="">Opdracht 5.2</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <a href="">Opdracht 5.3</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <a href="">Opdracht 5.4</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </li>-->
     </ul>
 </div>
