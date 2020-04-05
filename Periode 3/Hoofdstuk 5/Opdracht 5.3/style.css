@@ -1,0 +1,28 @@
+table
+{
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    transform: translate(-50%, 50%);
+
+}
+
+input
+{
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+select{
+    background-color: transparent;
+}
+
+.bold
+{
+    font-weight: 900;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
