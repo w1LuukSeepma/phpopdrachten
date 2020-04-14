@@ -20,9 +20,7 @@ for($counter = 0; $counter <= 7; $counter++)
     echo "Dag ";
     echo date('w', $count);
     echo " is ";
-    echo date("l", $count);
-    echo " ";
-    echo date("Y-m-d", $count);
+    echo date("l Y-m-d", $count);
 }
 
 ?>

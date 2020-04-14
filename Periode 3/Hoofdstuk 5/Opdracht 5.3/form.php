@@ -82,7 +82,7 @@ include "./functions.php";
             <td class="bold">Kans per ontmoeting op besmetting</td>
             <td>
                 <?php
-                echo echoKans() . "%";
+                    echo echoKans() . "%";
                 ?>
             </td>
         </tr>
