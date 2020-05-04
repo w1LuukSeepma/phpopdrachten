@@ -42,7 +42,6 @@ if(isset($_POST["submit"]))
     elseif ($login)
     {
         ?>
-        <div id="fullscreen"></div>
         <h1 id="welkom">Welkom!</h1>
         <div id="links">
             <h1>Openingstijden</h1>

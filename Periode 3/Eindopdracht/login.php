@@ -20,31 +20,37 @@ include "./Includes/include.php";
 echo "<p>" . $message . "</p>";
 ?>
 <div id="main">
-    <form action="login.php" method="post">
-        <table>
-            <tr>
-                <td>
-                    <label for="username">Username</label>
-                </td>
-                <td>
-                    <input type="text" name="username" id="username">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="password">Password</label>
-                </td>
-                <td>
-                    <input type="password" name="password" id="password">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="submit" id="submit" name="submit">
-                </td>
-            </tr>
-        </table>
-    </form>
+    <?php
+        if(!isset($_POST["submit"])) {
+            ?>
+            <form action="login.php" method="post">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="username">Username</label>
+                        </td>
+                        <td>
+                            <input type="text" name="username" id="username">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" name="password" id="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" id="submit" name="submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <?php
+        }
+    ?>
 </div>
 <img src="./images/left.png" alt="left" id="linkspijl">
 <img src="./images/right.png" alt="right" id="rechtspijl">

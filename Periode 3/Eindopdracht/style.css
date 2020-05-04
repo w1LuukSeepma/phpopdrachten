@@ -68,15 +68,6 @@ input[type = "submit"]:hover
     left: 50%;
 }
 
-#fullscreen
-{
-    width: 100vw;
-    height: 100vh;
-    background-color: white;
-    z-index: 5;
-    position: absolute;
-}
-
 #welkom
 {
     position: absolute;

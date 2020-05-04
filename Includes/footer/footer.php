@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <title></title>
-    <link rel="stylesheet" href="../../../Includes/footer/footer.css">
+    <link rel="stylesheet" href="/../../../phpopdrachten/Includes/footer/footer.css">
 </head>
 <div id="footer">
-        <?php
+<?php
         date_default_timezone_set("Europe/Amsterdam");
         $uur = date("H");
         $year = date('Y');
@@ -13,21 +13,37 @@
 
         if ($uur >= 0 && $uur <= 5)
         {
-            echo "Goedennacht bezoeker, " . "©" . " " .  $year . " " . $name;
+            $hour = "Goedennacht";
         }
         elseif ($uur >= 6 && $uur <= 12)
         {
-            echo "Goedemorgen bezoeker, " . "©" . " " .  $year . " " . $name;
+            $hour = "Goedenmorgen";
         }
         elseif ($uur >= 13 && $uur <= 17)
         {
-            echo "Goedemiddag bezoeker, " . "©" . " " .  $year . " " . $name;
+            $hour = "Goedenmiddag";
         }
         elseif ($uur >= 18 && $uur <= 24)
         {
-            echo "Goedeavond bezoeker, " . "©" . " " .  $year . " " . $name;
+            $hour = "Goedenavond";
         }
-        ?>
-    </div>
-    </body>
+
+    if (isset($_SESSION['username']))
+    {
+        $bezoeker = $_SESSION['username']. "&nbsp;<a class='footer'
+        href='/../../../phpopdrachten/Periode%204/Hoofdstuk%206/Opdracht%206.1/loguit.php'>Loguit</a>";
+    }
+    else
+    {
+        $bezoeker = "onbekende bezoeker". "&nbsp;<a class='footer'
+        href='/../../../phpopdrachten/Periode%204/Hoofdstuk%206/Opdracht%206.1/opdracht61.php'>Login</a>";
+    }
+
+    echo "<p>" . $hour . " " . $bezoeker . " " . "&copy;" . " " . $year .  "<p/>";
+
+
+
+    ?>
+</div>
+</body>
 </html>

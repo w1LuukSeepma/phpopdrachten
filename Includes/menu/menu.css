@@ -3,13 +3,13 @@
     box-sizing: border-box;
 }
 
-a{
+.blue{
     text-decoration: none;
     transition: 0.1s ease;
     color: #000000;
 }
 
-a:hover
+.blue:hover
 {
     color: #7bb2e6;
 }
