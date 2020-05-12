@@ -1,7 +1,3 @@
-
-<?php
-session_start();
-?>
 <div id="menu">
     <h1>Opdrachten:</h1>
     <ul>
@@ -89,9 +85,22 @@ session_start();
                     <a class="blue"  href="/../phpopdrachten/Periode%204/Hoofdstuk%206/Opdracht%206.1/opdracht61.php">Opdracht 6.1</a>
                 </li>
             </ul>
+            <ul>
+                <li>
+                    <a class="blue"  href="/../phpopdrachten/Periode%204/Hoofdstuk%206/Opdracht%206.2/opdracht62.php">Opdracht 6.2</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>Hoofdstuk 7</h3>
+            <ul>
+                <li>
+                    <a class="blue"  href="/../phpopdrachten/Periode%204/Hoofdstuk%207/Opdracht%207.1/index.php">Opdracht 7.1</a>
+                </li>
+            </ul>
 <!--            <ul>-->
 <!--                <li>-->
-<!--                    <a class="blue"  href=" ">Opdracht 6.2</a>-->
+<!--                    <a class="blue"  href="/../phpopdrachten/Periode%204/Hoofdstuk%206/Opdracht%206.2/opdracht62.php">Opdracht 6.2</a>-->
 <!--                </li>-->
 <!--            </ul>-->
         </li>

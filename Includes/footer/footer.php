@@ -41,8 +41,6 @@
 
     echo "<p>" . $hour . " " . $bezoeker . " " . "&copy;" . " " . $year .  "<p/>";
 
-
-
     ?>
 </div>
 </body>

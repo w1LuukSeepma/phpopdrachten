@@ -1,3 +1,7 @@
+<?php
+include "../../../Includes/header/header.php";
+include "../../../Includes/menu/menu.php";
+?>
 <div id="main">
     <form id="gameFrm" method="get" action="opdracht62.php">
          <div class="float">
@@ -27,6 +31,9 @@ session_start();
 * papier verliest schaar
 */
 
+?>
+<div id="main">
+<?php
 if(!isset($_SESSION['user1']) && !isset($_SESSION['user2']))
 {
     $_SESSION['user1'] = 0;
@@ -59,9 +66,16 @@ if (isset($_GET['keuze']))
         $_SESSION['user2'] += 0;
     }
 
+    ?>
+    <div id="user">
+    <?php
     echo "<p>" . $_SESSION['user1'] . "</p>";
     echo "<p>" . $_SESSION['user2'] . "</p>";
 
+
+    ?>
+    </div>
+    <?php
     if($_SESSION['user1'] == 5)
     {
         echo "<p class='pos'>" . "Je hebt gewonnen knaap" . "</p>";
@@ -75,4 +89,8 @@ if (isset($_GET['keuze']))
 
 }
 
+?>
+</div>
+<?php
 
+include "../../../Includes/footer/footer.php";
