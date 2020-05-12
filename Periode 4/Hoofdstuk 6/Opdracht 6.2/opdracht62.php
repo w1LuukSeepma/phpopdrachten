@@ -69,7 +69,7 @@ if (isset($_GET['keuze']))
     }
     elseif($_SESSION['user2'] == 5)
     {
-        echo "<p class='pos'>" . "Je bent een lozer knaap" . "</p>";
+        echo "<p class='pos'>" . "Je bent een loser knaap" . "</p>";
         session_destroy();
     }
 
