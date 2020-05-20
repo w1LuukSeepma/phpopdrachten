@@ -16,8 +16,7 @@ catch (PDOException $e)
     echo $e->getMessage();
     die();
 }
-echo "database connectie gelukt ";
-// Uitvoeren van een SQl query
+
 try
 {
     // Query schrijven
@@ -38,15 +37,31 @@ while ($row = $result->fetch(PDO::FETCH_ASSOC))
     // Result wegschrijven in de $aJokes array
     $aJokes[] = $row;
 }
-// Tonen van de inhoud van aJokes
-echo "<pre>";
-//var_dump
-var_dump($aJokes);
-echo "<pre>";
 
-foreach($aJokes as $grap) {
-    echo "<br>".$grap['joketext'];
+?>
+<table>
+    <thead>
+        <tr>
+            <td>
+                <b>ID</b>
+            </td>
+            <td>
+                <b>Joketext</b>
+            </td>
+            <td>
+                <b>Jokeclou</b>
+            </td>
+            <td>
+                <b>Jokedate</b>
+            </td>
+        </tr>
+    </thead>
+<?php
+foreach($aJokes as $grap)
+{
+    echo "<tr>" . "<td>" . $grap['id'] . "</td>" . "<td>" . $grap['joketext'] . "</td>" . "<td>" . $grap['jokeclou'] . "</td>" . "<td>" . $grap['jokedate'] . "</td>" . "</tr>";
 }
 
 //include "../../../Includes/footer/footer.php";
-
+?>
+</table>
