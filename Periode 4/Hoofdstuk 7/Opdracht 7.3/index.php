@@ -51,7 +51,7 @@ echo "<p> $query </p>";
     <?php
     foreach($jokes as $grap)
     {
-        echo "<tr>" . "<td>" . $grap['id'] . "</td>" . "<td>" . $grap['joketext'] . "</td>" . "<td>" . $grap['jokeclou'] . "</td>" . "<td>" . $grap['jokedate'] . "</td>" . "</tr>";
+            echo "<tr>" . "<td>" . $grap['id'] . "</td>" . "<td>" . $grap['joketext'] . "</td>" . "<td>" . $grap['jokeclou'] . "</td>" . "<td>" . $grap['jokedate'] . "</td>" . "</tr>";
     }
     ?>
     </tbody>

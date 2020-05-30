@@ -6,7 +6,6 @@ $authUsers = Array(
     "Rosalie" => "bloemblaadjes"
 );
 
-
 if ($_POST['username'] == 'Abu' && $_POST['password'] == 'bekend')
 {
     session_start();
@@ -14,20 +13,18 @@ if ($_POST['username'] == 'Abu' && $_POST['password'] == 'bekend')
     header('location: welkom.php');
 }
 
+foreach ($authUsers as $gebruikersnaam => $password)
+{
+    $wachtwoord = $_POST["password"];
+    $username = $_POST["username"];
 
-    foreach ($authUsers as $gebruikersnaam => $password)
+    if($gebruikersnaam === $username && $wachtwoord === $password)
     {
-        $wachtwoord = $_POST["password"];
-        $username = $_POST["username"];
-
-        if($gebruikersnaam === $username && $wachtwoord === $password)
-        {
-            session_start();
-            $_SESSION['username'] = $_POST['username'];
-            header('location: welkom.php');
-
-        }
+        session_start();
+        $_SESSION['username'] = $_POST['username'];
+        header('location: welkom.php');
     }
+}
 
 
 ?>
